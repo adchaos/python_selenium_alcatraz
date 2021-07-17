@@ -25,4 +25,4 @@ To execute the available tests from command line use the following command in th
 ## Allure eport
 Start web server with HTML report after the test execution:
 
-allure serve ./result/ -o ./report/ --clean 
+* allure serve ./result/ -o ./report/ --clean 
