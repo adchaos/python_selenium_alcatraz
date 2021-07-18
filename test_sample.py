@@ -161,7 +161,7 @@ class TestClass():
     @allure.step('Verify results')
     def verify_results(self, expected_result, actual_result):
         print("\n  Checking if {} page is equals to {}.".format(expected_result, actual_result))
-        if str.lower(actual_result) != expected_result:
+        if str.lower(actual_result) != str.lower(expected_result):
             raise Exception("User was not found")
         else:
             return "Username found"
